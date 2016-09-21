@@ -19,8 +19,9 @@ package main
 import (
 	"fmt"
 
+	"github.com/oustar/example/stringutil"
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	fmt.Printf(stringutil.ReverseS("!oG, olleH"))
 }
